@@ -85,4 +85,4 @@ En esta práctica se logró implementar un sistema multitarea utilizando FreeRTO
 
 La salida completa del monitor serial se encuentra en el archivo:
 
-`Serial_Monitor_Practica2.txt`
+`Serial_Monitor_Practica1.txt`
