@@ -1,1 +1,0 @@
-# Pr-ctica_2-Sistemas_Embebidos_en_Tiempo_Real
