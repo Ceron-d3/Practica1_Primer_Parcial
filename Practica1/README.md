@@ -80,3 +80,9 @@ De esta forma se evita que otra tarea modifique la variable mientras está siend
 ## Conclusión
 
 En esta práctica se logró implementar un sistema multitarea utilizando FreeRTOS sobre la plataforma ESP32, permitiendo comprender el funcionamiento del planificador, las prioridades de ejecución y la interacción entre diferentes tareas. Además, se aplicaron conceptos como suspensión y reanudación de tareas, temporización periódica, monitoreo de memoria y uso del Idle Hook para analizar el estado del procesador. Los resultados obtenidos permitieron verificar el correcto funcionamiento del sistema y reforzar los conocimientos relacionados con sistemas operativos en tiempo real y programación de sistemas embebidos.
+
+## Evidencia de monitor serial
+
+La salida completa del monitor serial se encuentra en el archivo:
+
+`Serial_Monitor_Practica2.txt`
