@@ -1,0 +1,211 @@
+[LED_R] ON tick:1437
+[LED_R] OFF tick:1537
+[LED_R] ON tick:1647
+[LED_R] OFF tick:1747
+[LED_R] ON tick:1857
+[LED_R] OFF tick:1957
+[IDLE] CPU libre — esperando evento de boton
+[MON] Heap:339736 Stack_R:484 Stack_L:1564 Stack_S:1532 words
+[LED_R] ON tick:2067
+[LED_R] OFF tick:2167
+[LED_R] ON tick:2277
+[LED_R] OFF tick:2377
+[LED_R] ON tick:2487
+[LED_R] OFF tick:2587
+[LED_R] ON tick:2697
+[LED_R] OFF tick:2797
+[LED_R] ON tick:2907
+[LED_R] OFF tick:3007
+[MON] Heap:339736 Stack_R:484 Stack_L:1564 Stack_S:1532 words
+[LED_R] ON tick:3117
+[LED_R] OFF tick:3217
+[LED_R] ON tick:3327
+[LED_R] OFF tick:3427
+[LED_R] ON tick:3537
+[LED_R] OFF tick:3637
+[LED_R] ON tick:3747
+[LED_R] OFF tick:3847
+[LED_R] ON tick:3957
+[IDLE] CPU libre — esperando evento de boton
+[MON] Heap:339736 Stack_R:484 Stack_L:1564 Stack_S:1532 words
+[LED_R] OFF tick:4057
+[LED_R] ON tick:4167
+[LED_R] OFF tick:4267
+[LED_R] ON tick:4377
+[LED_R] OFF tick:4477
+[LED_R] ON tick:4587
+[LED_R] OFF tick:4687
+[LED_R] ON tick:4797
+[LED_R] OFF tick:4897
+[LED_R] ON tick:5007
+[MON] Heap:339736 Stack_R:484 Stack_L:1564 Stack_S:1532 words
+[LED_R] OFF tick:5107
+[LED_R] ON tick:5217
+[LED_R] OFF tick:5317
+[MON] *** BOTON PRESIONADO ***
+[LED_R] Boton detectado -> activando modo LENTO
+[LED_L] ON tick:5517 t_restante:4900ms
+[SENS] ADC raw:383 0.31V tick:5517
+[SENS] ADC raw:396 0.32V tick:5816
+[IDLE] CPU libre — esperando evento de boton
+[LED_L] OFF tick:6016 t_restante:4900ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:384 0.31V tick:6116
+[SENS] ADC raw:383 0.31V tick:6416
+[LED_L] ON tick:6516 t_restante:3901ms
+[SENS] ADC raw:384 0.31V tick:6716
+[SENS] ADC raw:391 0.32V tick:7016
+[LED_L] OFF tick:7017 t_restante:3901ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:384 0.31V tick:7316
+[LED_L] ON tick:7516 t_restante:2901ms
+[SENS] ADC raw:384 0.31V tick:7616
+[SENS] ADC raw:382 0.31V tick:7916
+[IDLE] CPU libre — esperando evento de boton
+[LED_L] OFF tick:8016 t_restante:2901ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:371 0.30V tick:8216
+[SENS] ADC raw:550 0.44V tick:8516
+[LED_L] ON tick:8517 t_restante:1900ms
+����������������������������������������������������������������16
+[LED_L] OFF tick:9016 t_restante:1900ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:1210 0.98V tick:9116
+[SENS] ADC raw:1680 1.35V tick:9416
+[LED_L] ON tick:9516 t_restante:901ms
+[SENS] ADC raw:2018 1.63V tick:9716
+[IDLE] CPU libre — esperando evento de boton
+[SENS] ADC raw:2311 1.86V tick:10016
+[LED_L] OFF tick:10017 t_restante:901ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:2544 2.05V tick:10316
+[LED_L] Timeout 5s -> regresando a modo RAPIDO
+[LED_R] ON tick:10526
+[LED_R] OFF tick:10626
+[LED_R] ON tick:10736
+[LED_R] OFF tick:10836
+[LED_R] ON tick:10946
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[LED_R] OFF tick:11046
+[LED_R] ON tick:11156
+[LED_R] OFF tick:11256
+[LED_R] ON tick:11366
+[LED_R] OFF tick:11466
+[LED_R] ON tick:11576
+[LED_R] OFF tick:11676
+[LED_R] ON tick:11786
+[LED_R] OFF tick:11886
+[LED_R] ON tick:11996
+[IDLE] CPU libre — esperando evento de boton
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[LED_R] OFF tick:12096
+[LED_R] ON tick:12206
+[LED_R] OFF tick:12306
+[LED_R] ON tick:12416
+[LED_R] OFF tick:12516
+[LED_R] ON tick:12626
+[LED_R] OFF tick:12726
+[LED_R] ON tick:12836
+[LED_R] OFF tick:12936
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[LED_R] ON tick:13046
+[LED_R] OFF tick:13146
+[LED_R] ON tick:13256
+[LED_R] OFF tick:13356
+[LED_R] ON tick:13466
+[LED_R] OFF tick:13566
+[LED_R] ON tick:13676
+[LED_R] OFF tick:13776
+[LED_R] ON tick:13886
+[LED_R] OFF tick:13986
+[IDLE] CPU libre — esperando evento de boton
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[LED_R] ON tick:14096
+[LED_R] OFF tick:14196
+[LED_R] ON tick:14306
+[LED_R] OFF tick:14406
+[LED_R] ON tick:14516
+[LED_R] OFF tick:14616
+[LED_R] ON tick:14726
+[LED_R] OFF tick:14826
+[LED_R] ON tick:14936
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[LED_R] OFF tick:15036
+[LED_R] ON tick:15146
+[LED_R] OFF tick:15246
+[LED_R] ON tick:15356
+[LED_R] OFF tick:15456
+[LED_R] ON tick:15566
+[LED_R] OFF tick:15666
+[LED_R] ON tick:15776
+[LED_R] OFF tick:15876
+[LED_R] ON tick:15986
+[IDLE] CPU libre — esperando evento de boton
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[LED_R] OFF tick:16086
+[LED_R] ON tick:16196
+[LED_R] OFF tick:16296
+[LED_R] ON tick:16406
+[LED_R] OFF tick:16506
+[LED_R] ON tick:16616
+[LED_R] OFF tick:16716
+[LED_R] ON tick:16826
+[LED_R] OFF tick:16926
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[LED_R] ON tick:17036
+[LED_R] OFF tick:17136
+[LED_R] ON tick:17246
+[MON] *** BOTON PRESIONADO ***
+[LED_R] OFF tick:17346
+[LED_R] Boton detectado -> activando modo LENTO
+[SENS] ADC raw:2384 1.92V tick:17516
+[LED_L] ON tick:17517 t_restante:4929ms
+[SENS] ADC raw:2370 1.91V tick:17816
+[IDLE] CPU libre — esperando evento de boton
+[LED_L] OFF tick:18016 t_restante:4929ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:2378 1.92V tick:18116
+[SENS] ADC raw:2374 1.91V tick:18416
+[LED_L] ON tick:18516 t_restante:3930ms
+[SENS] ADC raw:2376 1.91V tick:18716
+[SENS] ADC raw:2357 1.90V tick:19016
+[LED_L] OFF tick:19017 t_restante:3930ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:2387 1.92V tick:19316
+[LED_L] ON tick:19516 t_restante:2930ms
+[SENS] ADC raw:2384 1.92V tick:19616
+[SENS] ADC raw:2382 1.92V tick:19916
+[IDLE] CPU libre — esperando evento de boton
+[LED_L] OFF tick:20016 t_restante:2930ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:2378 1.92V tick:20216
+[SENS] ADC raw:2379 1.92V tick:20516
+[LED_L] ON tick:20517 t_restante:1929ms
+[SENS] ADC raw:2377 1.92V tick:20816
+[LED_L] OFF tick:21016 t_restante:1929ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:2383 1.92V tick:21116
+[SENS] ADC raw:2358 1.90V tick:21416
+[LED_L] ON tick:21516 t_restante:930ms
+[SENS] ADC raw:2379 1.92V tick:21716
+[IDLE] CPU libre — esperando evento de boton
+[SENS] ADC raw:2368 1.91V tick:22016
+[LED_L] OFF tick:22017 t_restante:930ms
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[SENS] ADC raw:2380 1.92V tick:22316
+[LED_L] Timeout 5s -> regresando a modo RAPIDO
+[LED_R] ON tick:22526
+[LED_R] OFF tick:22626
+[LED_R] ON tick:22736
+[LED_R] OFF tick:22836
+[LED_R] ON tick:22946
+[MON] Heap:339372 Stack_R:484 Stack_L:704 Stack_S:204 words
+[LED_R] OFF tick:23046
+[LED_R] ON tick:23156
+[LED_R] OFF tick:23256
+[LED_R] ON tick:23366
+[LED_R] OFF tick:23466
+[LED_R] ON tick:23576
+[LED_R] OFF tick:23676
+[LED_R] ON tick:23786
+[LED_R] OFF tick:23886
