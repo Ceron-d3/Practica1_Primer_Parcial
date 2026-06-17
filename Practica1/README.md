@@ -1,4 +1,33 @@
 # Practicas_Primer_Parcial
+
+Eduardo Cerón
+
+## Descripción del proyecto
+
+Este proyecto implementa una aplicación multitarea utilizando FreeRTOS sobre una tarjeta ESP32. El objetivo es demostrar el uso de tareas concurrentes, sincronización mediante variables compartidas, monitoreo de recursos del sistema y ejecución periódica de sensores.
+
+El sistema está compuesto por cuatro tareas principales:
+
+- **vTaskLedRapido()**: controla el parpadeo rápido del LED integrado de la ESP32 con un periodo de 100 ms. Al detectar la pulsación del botón, cambia el sistema al modo lento y se autosuspende.
+- **vTaskLedLento()**: controla el parpadeo lento del LED con un periodo de 500 ms. Mantiene este modo durante 5 segundos y posteriormente reactiva la tarea de parpadeo rápido.
+- **vTaskSensor()**: realiza la lectura periódica del ADC conectado al GPIO34 cada 300 ms y reporta los valores obtenidos a través de la terminal serial cuando el sensor se encuentra habilitado.
+- **vTaskMonitor()**: supervisa continuamente el estado del botón mediante polling, detecta flancos de activación y genera reportes periódicos del uso de memoria dinámica (heap) y del stack disponible de las tareas.
+
+Adicionalmente, se implementa un **Idle Hook** que permite identificar cuándo el procesador se encuentra libre debido a que todas las tareas están bloqueadas o suspendidas.
+
+Durante la ejecución del programa se utilizan conceptos fundamentales de FreeRTOS como:
+
+- Creación de tareas mediante `xTaskCreate()`.
+- Suspensión y reanudación de tareas mediante `vTaskSuspend()` y `vTaskResume()`.
+- Variables compartidas entre tareas.
+- Prioridades de ejecución.
+- Retardos periódicos con `vTaskDelay()` y `vTaskDelayUntil()`.
+- Monitoreo de recursos mediante `uxTaskGetStackHighWaterMark()`.
+- Uso del Idle Hook para detectar tiempos de inactividad del procesador.
+
+El funcionamiento general consiste en iniciar el sistema con un LED parpadeando rápidamente. Al presionar el botón BOOT de la ESP32, el sistema cambia temporalmente a un modo de parpadeo lento durante 5 segundos mientras se habilita la lectura del ADC. Una vez transcurrido ese tiempo, el sistema regresa automáticamente al modo inicial.
+
+## Preguntas:
 1. ¿Por qué la variable `g_ledRapido` debe declararse como `volatile`? ¿Qué ocurre si se omite esa palabra clave?
 
 La variable `g_ledRapido` debe declararse como `volatile` porque es compartida entre varias tareas de FreeRTOS. Una tarea puede modificar su valor mientras otra la está leyendo. La palabra clave `volatile` indica al compilador que el valor de la variable puede cambiar en cualquier momento y evita que se realicen optimizaciones que podrían provocar que una tarea utilice un valor antiguo almacenado en registros. Si se omite `volatile`, una tarea podría no detectar los cambios realizados por otra tarea, ocasionando comportamientos inesperados en el sistema.
